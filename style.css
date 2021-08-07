@@ -3,6 +3,10 @@
     margin:0;
 }
 
+h1{
+    margin-bottom:10px;
+}
+
 body{
     background-color:#00a5ef;
 }
