@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{ 
+    width:80%;
+    display: flex; 
+    max-width: 1000px;
+    margin: 1.6em auto;
+    align-content: center;
+    place-content: center;
+    
+}
+.info{
+    width:450px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+p{
+    margin-bottom: 20px;
+}
