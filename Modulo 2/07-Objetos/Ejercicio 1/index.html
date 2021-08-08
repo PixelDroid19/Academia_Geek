@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body id="particles-js">
+    <div class="main">
+        <div class="form">
+            <p class="Ejerc">Capturar usuario y contraseña desde cajas de texto y almacenar la 
+                información en el localstorage en variables separadas.</p>
+            <label for="nombre">Nombre:</label>
+                <input type="text" id="firstName" />
+
+                <label for="nombre">Password:</label>
+                <input type="text" id="Password" />
+
+                
+                <input type="button" onclick="guardarDatos()" value="Guardar datos" />
+ 
+                <p id="datos">Pulsa para ver tu nombre y tu password.</p>
+                <input type="button" onclick="recuperarDatos()" value="Recuperar datos" />
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
