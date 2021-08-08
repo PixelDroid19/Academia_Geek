@@ -1,7 +1,8 @@
 /*Ejercicio 1
 Capturar tres números por medio de cajas de texto, compararlos e indicar cual número es mayor y cual menor. 
 Adicionar una validación en caso de que sean iguales. Implementar el evento DOMContentLoaded y click.*/
-let Result = document.getElementById("result");
+document.addEventListener("DOMContentLoaded", function(){
+    let Result = document.getElementById("result");
 
 let button = document.getElementById("btn"),
       number1 = 0,
@@ -23,10 +24,12 @@ function comparison(){
         Result.innerHTML = "El mayor es : " + number2;
     }else if(number3 > number1 && number3 > number2){
         Result.innerHTML = "El mayor es : " + number3;
-    }else{
+    }else if(number1 == number2 && number1 == number3 || number2 == number1 && number2 == number1 || number3 == number2 && number3 == number1){
         Result.innerHTML = "Son iguales";
     }
 }
 
 
 button.onclick = getData;
+});
+
