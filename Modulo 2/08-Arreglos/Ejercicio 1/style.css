@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{ 
+    width:80%;
+    display: flex; 
+    max-width: 1000px;
+    margin: 1.6em auto;
+    align-content: center;
+    place-content: center;
+    
+}
+
+p{
+    width:450px;
+    padding: 20px;
+    text-align: center;
+    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
